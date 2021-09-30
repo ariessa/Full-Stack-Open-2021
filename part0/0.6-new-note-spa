@@ -1,0 +1,19 @@
+title Create New Note (SPA)
+
+note over browser:
+browser executes event handler to create a new note
+end note
+
+note over browser:
+browser executes event handler to add new note to the notes list
+end note
+
+note over browser:
+browser executes event handler to rerender the notes list on the page
+end note
+
+note over browser:
+browser executes event handler to send the new note to the server
+end note
+
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
